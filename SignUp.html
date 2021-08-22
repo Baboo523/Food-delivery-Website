@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>SignUp Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script
+            type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- Custom Theme files -->
+        <link rel="stylesheet" href="./css/SignUp.css">
+        <!-- //Custom Theme files -->
+        <!-- web font -->
+        <!-- <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet"> -->
+        <!-- //web font -->
+    </head>
+    <body>
+        <!-- main -->
+        <div class="main-w3layouts wrapper">
+            <h1>SignUp Form</h1>
+            <div class="main-agileinfo">
+                <div class="agileits-top">
+                        <input id="name" class="text" type="text" name="Username" placeholder="Username" required="">
+                        <input id="phone" style="margin-top: 10px;" class="text" type="text" name="number" placeholder="Phone Number" required="">
+                        <input id="email" class="text email" type="email" name="email" placeholder="Email" required="">
+                        <input id="password" class="text" type="password" name="password" placeholder="Password" required="">
+                        <!-- <input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required=""> -->
+                       <select name="" id="type">
+                           <option value="">Select Value</option>
+                           <option value="user">User</option>
+                           <option value="resturant">Resturant</option>
+
+                       </select>
+                        <div class="wthree-text">
+                            <label class="anim">
+                                <input type="checkbox" class="checkbox" required="">
+                                <span>I Agree To The Terms & Conditions</span>
+                            </label>
+                            <div class="clear"></div>
+                        </div>
+                        <button onclick="sigup()">Sign Up as User</button> <br> <br>
+                        <!-- <button onclick="sigup()">Sign Up As Resturnment</button> -->
+                    <!-- <p>Don't have an Account? <a href="#"> Login Now!</a></p> -->
+                </div>
+            </div>
+            <!-- copyright -->
+            <div class="colorlibcopy-agile">
+                <p>© 2018 All rights reserved | Design by Baboo Kumar Heerani </p>
+                        target="_blank">Colorlib</></p>
+            </div>
+            <!-- //copyright -->
+            <ul class="colorlib-bubbles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCfORtNpXizqvOodAxzgjmzh3j3Ba8A_x0",
+    authDomain: "food-delivery-applicatio-2dbc9.firebaseapp.com",
+    projectId: "food-delivery-applicatio-2dbc9",
+    storageBucket: "food-delivery-applicatio-2dbc9.appspot.com",
+    messagingSenderId: "910078630453",
+    appId: "1:910078630453:web:92d76f6d7642db9e31ef7c",
+    measurementId: "G-QC02L9X3PV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script  src="./js/app.js"></script>
+    </body>
+</html>
